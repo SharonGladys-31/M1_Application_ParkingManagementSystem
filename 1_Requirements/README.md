@@ -6,6 +6,7 @@ Customers can spend more time shopping rather than looking for parking space. In
 
 
 BENEFITS:
+
 •	Versatile.
 •	Easy to Manage.
 •	Easy to Maintain
@@ -13,6 +14,7 @@ BENEFITS:
 •	Uses integrated software and applications
 
 DEFINING OUR SYSTEM:
+
 •	Add vehicle database
 •	Add the incoming vehicles or delete the outgoing vehicles
 •	Update information on incoming and outgoing vehicles 
@@ -21,24 +23,35 @@ DEFINING OUR SYSTEM:
 •	Gives information about the space available at the instant.
 
 4W & 1H
+
 WHO :
+
 Parking area Mangement
 
 
-WHAT: Parking management system help people when parking their vechicles in a parking area.
-WHERE:Can be used in any parking area 
+WHAT: 
+
+Parking management system help people when parking their vechicles in a parking area.
+WHERE:
+
+Can be used in any parking area 
 
 
-WHEN:When there is increasing vehicles in an parking area.
+WHEN:
+
+When there is increasing vehicles in an parking area.
 
 SWOT ANALYSIS:
+
 WEAKNESS:
+
 •	Regular maintenance. 
 •	Operation. 
 •	Breakdown. 
 
 
 STRENGTHS:
+
 •	Control over all sections and leave the focus on the system with a solitary administrator.
 •	Traffic estimation and computation of vehicle installment and charges
 •	Robotized System for controlling and management of parking area
@@ -48,6 +61,7 @@ STRENGTHS:
 
 
 OPPORTUNITY:
+
 Can be implemented in any parking system.
 
 
@@ -56,7 +70,9 @@ Can be implemented in any parking system.
 THREATS:
 
 DETAIL REQUIREMENTS:
+
 HIGH LEVEL REQUIREMENTS:
+
 ID               DESCRIPTION
 HR01          User will be able to check the availability of parking space
 HR02          Number of vehicles entering the parking area
