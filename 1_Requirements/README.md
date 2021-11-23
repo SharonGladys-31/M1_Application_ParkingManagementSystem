@@ -33,9 +33,9 @@ WHEN:When there is increasing vehicles in an parking area.
 
 SWOT ANALYSIS:
 WEAKNESS:
-•	Regular maintenance. ...
-•	Operation. ...
-•	Breakdown. ...
+•	Regular maintenance. 
+•	Operation. 
+•	Breakdown. 
 
 
 STRENGTHS:
