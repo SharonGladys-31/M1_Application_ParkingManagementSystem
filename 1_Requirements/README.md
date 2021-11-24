@@ -9,21 +9,23 @@ Customers can spend more time shopping rather than looking for parking space. In
 BENEFITS:
 ---------------------------
 
-•	Versatile.
-•	Easy to Manage.
-•	Easy to Maintain
-•	Increased Protection
-•	Uses integrated software and applications
+*	Correct data available at any instant.
+*	Easy to Manage.
+*	Easy to Maintain
+*	Increased Protection
+*	Uses integrated software and applications
 
 DEFINING OUR SYSTEM:
 -------------------------------------------
 
-•	Add vehicle database
-•	Add the incoming vehicles or delete the outgoing vehicles
-•	Update information on incoming and outgoing vehicles 
-•	Gives data on the number of vehicles parked
-•	Gives the parking fees collected from each vehicle
-•	Gives information about the space available at the instant.
+
+*	Number of slots available for two wheeler and four wheeler vehicles.
+*	Inward and outward vehicles number and time .
+*	Assigning an empty slot to an inward vehicle.
+*	Current report of total number of two wheelers and four wheelers inside the parking space.
+*	Total report of vehicles and their details.
+
+
 
 4W & 1H
 --------------------------------
@@ -31,7 +33,7 @@ DEFINING OUR SYSTEM:
 WHO :
 -------------
 
-Parking area Mangement
+Parking area Management or administrator.
 
 
 WHAT:
@@ -57,17 +59,17 @@ SWOT ANALYSIS:
 WEAKNESS:
 --------------------
 
-•	Regular maintenance. 
-•	Operation. 
-•	Breakdown. 
+ 
+*	Operation failure may cause damage. 
+*	Correct data of slots available and the number of vehicles that can be accomadated in it.
 
 
 STRENGTHS:
 -----------------------
 
-•	Control over all sections and leave the focus on the system with a solitary administrator.
-•	Traffic estimation and computation of vehicle installment and charges
-•	Robotized System for controlling and management of parking area
+*	Control over all sections and leave the focus on the system with a solitary administrator.
+*	Traffic estimation and computation of vehicle installment and charges
+*	Robotized System for controlling and management of parking area
 
 
 
@@ -76,7 +78,7 @@ STRENGTHS:
 OPPORTUNITY:
 -----------------------
 
-Can be implemented in any parking system.
+Can be implemented in any parking space.
 
 
 
@@ -94,18 +96,17 @@ HIGH LEVEL REQUIREMENTS:
 ----------------------------------
 
 
-•	User will be able to check the availability of parking space
-•	Number of vehicles entering the parking area
-•	Number of vehicles leaving the parking area
-•	 Parking charges for a vehicle 
+*	Number of slots available for two wheeler and four wheeler vehicles.
+*	Inward and outward vehicles number and time .
+*	Current report of total number of two wheelers and four wheelers inside the parking space.
 
 
 LOW LEVEL REQUIREMENTS:
 ------------------------------
 
 
-•	The system will ask input from the user whether it is a two wheeler or a four wheeler 
-•	Security is high 
+*	Assigning an empty slot to an inward vehicle.
+* Total report of vehicles.
 
 
 
