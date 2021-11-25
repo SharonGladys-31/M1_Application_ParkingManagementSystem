@@ -11,6 +11,7 @@ int main()
 	char vehicleNo[50];
 	char dateTime[50];
 	time_t t;
+	int i = 0;
 	
 	struct vehicle
 	{
@@ -35,12 +36,12 @@ int main()
 	int twoWheelers[two_slots];
 	int fourWheelers[four_slots];
 	
-	for(int i=0;i<two_slots;i++)
+	for(i=0;i<two_slots;i++)
 	{
 		twoWheelers[i] = 0;
 	}
 
-	for(int i=0;i<four_slots;i++)
+	for(i=0;i<four_slots;i++)
 	{
 		fourWheelers[i] = 0;
 	}
@@ -80,7 +81,7 @@ int main()
 					
 					if(vehicleType == 1)
 					{
-						for(int i=0;i<two_slots;i++)
+						for(i=0;i<two_slots;i++)
 						{
 							if(twoWheelers[i] == 0)
 							{
@@ -91,7 +92,7 @@ int main()
 					}
 					else
 					{
-						for(int i=0;i<four_slots;i++)
+						for(i=0;i<four_slots;i++)
 						{
 							if(fourWheelers[i] == 0)
 							{
@@ -108,7 +109,7 @@ int main()
 					else
 					{
 						int entry = 0;
-						for(int i=0;i<vcount;i++)
+						for(i=0;i<vcount;i++)
 						{
 							if(strcmp(vehicleNo,vehicles[i].vNo) == 0 && vehicles[i].status == 1)
 							{
@@ -119,6 +120,7 @@ int main()
 						}
 						if(entry == 0)
 						{
+							printf("Vehicle Details: %d-W %s InTime:%s\n",((vehicleType == 1)?2:4),vehicleNo,dateTime);
 							int pos = vcount++;
 							vehicles[pos].vType = vehicleType;
 							strcpy(vehicles[pos].vNo,vehicleNo);
@@ -126,7 +128,6 @@ int main()
 							strcpy(vehicles[pos].oDate,"");
 							vehicles[pos].status = 1;
 							vehicles[pos].slotId = freeSlot+1;
-							printf("Vehicle Details: %d-W %s InTime:%s AssignedSlot: %d\n",((vehicleType == 1)?2:4),vehicleNo,dateTime,vehicles[pos].slotId);
 		
 							if(vehicleType == 1)
 							{
@@ -153,7 +154,7 @@ int main()
 					strftime(dateTime, strlen("DD-MMM-YYYY HH:MM")+1,"%d-%b-%Y %H:%M",timeinfo);
 					int vpos = -1;
 					
-					for(int i=vcount-1;i>=0;i--)
+					for(i=vcount-1;i>=0;i--)
 					{
 						if(strcmp(vehicleNo,vehicles[i].vNo) == 0 && vehicles[i].status == 1)
 						{
@@ -185,7 +186,7 @@ int main()
 			case 3:
 				{
 					printf("Total Report\n");
-					for(int i=0;i<vcount;i++)
+					for(i=0;i<vcount;i++)
 					{
 						printf("Vehicle No: %s VehicleType: %d W, InTime: %s, OutTime: %s, Slot: %d, Status: %c\n",
 							vehicles[i].vNo,((vehicles[i].vType == 1)?2:4),
@@ -198,7 +199,7 @@ int main()
 			case 4:
 				{
 					printf("Current Report\n");
-					for(int i=0;i<vcount;i++)
+					for(i=0;i<vcount;i++)
 					{
 						if(vehicles[i].status == 1)
 						{
@@ -212,7 +213,7 @@ int main()
 					int availTwo = 0;
 					int availFour = 0;
 			
-					for(int i=0;i<two_slots;i++)
+					for(i=0;i<two_slots;i++)
 					{
 						if(twoWheelers[i] == 1)
 						{
@@ -220,7 +221,7 @@ int main()
 						}
 					}
 
-					for(int i=0;i<four_slots;i++)
+					for(i=0;i<four_slots;i++)
 					{
 						if(fourWheelers[i] == 1)
 						{
@@ -246,4 +247,3 @@ int main()
 	printf("Exiting\n");
 	return 0;
 }
-
