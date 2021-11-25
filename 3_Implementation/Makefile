@@ -5,7 +5,7 @@ CFLAGS  = -g -Wall
  
 # The build target 
 
-BASEDIR = .
+BASEDIR = /home/runner/work/M1_Application_ParkingManagementSystem/M1_Application_ParkingManagementSystem/3_Implementation
 SRC_DIR = $(BASEDIR)/src
 TEST_DIR = $(BASEDIR)/test
 OBJ_DIR = $(BASEDIR)
