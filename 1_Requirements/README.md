@@ -96,17 +96,28 @@ HIGH LEVEL REQUIREMENTS:
 ----------------------------------
 
 
-*	Number of slots available for two wheeler and four wheeler vehicles.
-*	Inward and outward vehicles number and time .
-*	Current report of total number of two wheelers and four wheelers inside the parking space.
+
+| Test ID    | Description                                                       | 
+|---------   |---------------------------                                        |
+|   H_01     | Slot availability for two wheelers and four wheelers              |
+|   H_02     | Slot allotment for inward vehicles and time of entry              |
+|   H_03     | Current report of total number of vehicles in the parking area    |
+
+
+
+
 
 
 LOW LEVEL REQUIREMENTS:
 ------------------------------
 
 
-*	Assigning an empty slot to an inward vehicle.
-* Total report of vehicles.
+
+| Test ID    | Description                   |
+|---------   |---------------------------    |
+|   L_01     |Outward vehicles exit time     |
+|   L_02     |   Total report                |  
+
 
 
 
