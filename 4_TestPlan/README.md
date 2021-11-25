@@ -18,8 +18,8 @@ LOW LEVEL TEST PLAN:
 
 
 
-| Test ID    | Description                   | Exp I/P     | Exp O/P     |Actual O/P | Type of test  |
-|---------   |---------------------------    |-----------  |------------ |---------- | ------------- |
-|   L_01     |Outward vehicles exit time     |    Time     |Sucessfull   |Sucessfull |Scenario based |
-|   L_02     |   Total report                |   Number    |Sucessfull   |Sucessfull |Boundary based |
+| Test ID    | Description                         | Exp I/P     | Exp O/P     |Actual O/P | Type of test  |
+|---------   |---------------------------          |-----------  |------------ |---------- | ------------- |
+|   L_01     |Outward vehicles exit time           |    Time     |Sucessfull   |Sucessfull |Scenario based |
+|   L_02     | Total report of vehicles parked     |   Number    |Sucessfull   |Sucessfull |Boundary based |
 
