@@ -4,7 +4,7 @@
 
 [![Build_linux](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/build_linux.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/build_linux.yml)
 
-
+[![C/C++ CI](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/c-cpp.yml)
 
 [![Windows C/C++ CI](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/Windows_c-cpp.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/Windows_c-cpp.yml)
 
