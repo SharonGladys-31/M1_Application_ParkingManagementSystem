@@ -10,7 +10,7 @@ SRC_DIR = $(BASEDIR)/src
 TEST_DIR = $(BASEDIR)/test
 OBJ_DIR = $(BASEDIR)
 
-TARGET = parkingLot
+TARGET = parking
 TEST_TARGET = parkingLotTest
  
 all:
