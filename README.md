@@ -2,6 +2,8 @@
 
 [![.github/workflows/Git_Inspector.yml](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/Git_Inspector.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/Git_Inspector.yml)
 
+[![Build_linux](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/build_linux.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/build_linux.yml)
+
 
 # M1_Application_ParkingManagementSystem
 
