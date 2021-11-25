@@ -1,4 +1,6 @@
-![][![Unit Testing - Unity](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/unity.yml)
+[![Unit Testing - Unity](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/unity.yml)
+
+[![.github/workflows/Git_Inspector.yml](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/Git_Inspector.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/Git_Inspector.yml)
 
 
 # M1_Application_ParkingManagementSystem
