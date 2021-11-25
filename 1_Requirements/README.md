@@ -113,10 +113,10 @@ LOW LEVEL REQUIREMENTS:
 
 
 
-| Test ID    | Description                   |
-|---------   |---------------------------    |
-|   L_01     |Outward vehicles exit time     |
-|   L_02     |   Total report                |  
+| Test ID    | Description                                       |
+|---------   |---------------------------                        |
+|   L_01     |  Outward vehicles exit time                       |
+|   L_02     | Total report of vehicles in the parking slot      |  
 
 
 
