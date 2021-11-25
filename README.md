@@ -1,3 +1,5 @@
+[![Unit Testing - Unity](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/unity.yml/badge.svg)](https://github.com/SharonGladys-31/M1_Application_ParkingManagementSystem/actions/workflows/unity.yml)
+
 # M1_Application_ParkingManagementSystem
 
 
